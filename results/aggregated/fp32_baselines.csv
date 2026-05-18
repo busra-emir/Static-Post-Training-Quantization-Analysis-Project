@@ -1,0 +1,5 @@
+model,fp32_accuracy
+resnet18,69.06
+resnet50,75.88
+efficientnet_b0,77.36
+mobilenet_v2,71.12

@@ -1,0 +1,10 @@
+model,test,statistic,p_value
+resnet18,Wilcoxon n=10 vs n=5000,2.0,0.1875
+resnet18,Spearman (size~deltaAcc),0.026,0.8915
+resnet18,Spearman (size~ECE),-0.035,0.8545
+resnet50,Wilcoxon n=10 vs n=5000,2.0,0.375
+resnet50,Spearman (size~deltaAcc),-0.1131,0.5519
+resnet50,Spearman (size~ECE),-0.2108,0.2634
+mobilenet_v2,Wilcoxon n=10 vs n=5000,0.0,0.0625
+mobilenet_v2,Spearman (size~deltaAcc),0.4206,0.0207
+mobilenet_v2,Spearman (size~ECE),0.2379,0.2055
